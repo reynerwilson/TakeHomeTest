@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.bar {
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bar h1 {
+    font-size: 24px;
+}
+
+.bar ul {
+    list-style: none;
+}
+
+.bar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.bar a {
+    text-decoration: none;
+    color: white;
+}
