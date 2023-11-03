@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background-color: rgb(11, 111, 11);
+    font-family: Arial, sans-serif;
+}
+
+.bar {
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bar h1 {
+    font-size: 24px;
+}
+
+.bar ul {
+    list-style: none;
+}
+
+.bar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.bar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS yang sudah ada */
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+nav li {
+    background-color: #59bf57;
+    padding: 10px;
+    text-align: center;
+}
+
+nav img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #59bf57;
+}
